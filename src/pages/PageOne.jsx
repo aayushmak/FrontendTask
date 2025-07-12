@@ -25,16 +25,18 @@ const PageOne = () => {
               <img src={arrowBlack} alt="arrow" width={18} className='ml-1' />
             </div>
           </div>
-          
-            <div ref={setItemRef}><HoverableImage src={person2} /></div>
-          </div>
-          <div ref={setItemRef}><GifImage src={emojiGif} /></div>
-          <div ref={setItemRef}><HoverableImage src={person4} /></div>
-          <div ref={setItemRef}><GifImage src={trophyGif} /></div>
-          <div ref={setItemRef}><HoverableImage src={person3} withHoverEffect={isActivated} /></div>
-          <div ref={setItemRef}><GifImage src={favGif} /></div>
+
+          <div ref={setItemRef}><HoverableImage src={person2} /></div>
         </div>
-     
+        <div className="flex">
+          <div ref={setItemRef}><GifImage src={emojiGif} /></div>
+        <div ref={setItemRef}><HoverableImage src={person4} /></div>
+        <div ref={setItemRef}><GifImage src={trophyGif} /></div>
+        <div ref={setItemRef}><HoverableImage src={person3} withHoverEffect={isActivated} /></div>
+        <div ref={setItemRef}><GifImage src={favGif} /></div>
+        </div>
+      </div>
+
     </main>
   );
 };

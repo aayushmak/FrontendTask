@@ -6,16 +6,16 @@ const useClusterFloatAnimation = () => {
   const itemsRef = useRef([]);
   const [isActivated, setIsActivated] = useState(false);
 
-  // Oval spread target positions (adjust as needed)
+  // Oval spread target positions 
   const targets = [
-    { x: -200, y: -80 }, //person6
+    { x: -200, y: -80 }, 
     { x: 0, y: -100 },  
     { x: 200, y: -100 },
     { x: -300, y: -50 },
     { x: 0, y: -50 },
     { x: 300, y: -40 },
     { x: -300, y: -30 },
-    { x: -180,    y: -20 }, //person1
+    { x: -180,    y: -20 }, 
     { x: 0,  y: 0 }, 
     { x: 180,  y: -10 }, 
     { x: 200,    y: -20 }, 
@@ -29,7 +29,7 @@ const useClusterFloatAnimation = () => {
 
   useEffect(() => {
     // Initially cluster at bottom center
-    gsap.set(itemsRef.current, { x:0, y:300, opacity:0 });
+    gsap.set(itemsRef.current, { x:0, y:0, opacity:0 });
 
     const handleMouseMove = (e) => {
       const bounds = containerRef.current.getBoundingClientRect();
