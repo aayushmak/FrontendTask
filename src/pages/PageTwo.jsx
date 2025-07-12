@@ -1,4 +1,3 @@
-// pages/PageTwo.jsx
 import React from 'react';
 import { pageTwoData, pageTwoDataRight } from '../constants';
 import PageTwoCardLeft from '../components/PageTwoCardLeft';

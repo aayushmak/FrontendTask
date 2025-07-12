@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-
+/*Imported reuired fonts*/
 @font-face {
   font-family: 'Oakes Grotesk';
   src: url('./assets/fonts/fonnts.com-oakesgrotesk-regular.otf') format('truetype');
