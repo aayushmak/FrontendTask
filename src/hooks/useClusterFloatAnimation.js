@@ -8,12 +8,17 @@ const useClusterFloatAnimation = () => {
 
   // Oval spread target positions (adjust as needed)
   const targets = [
-    { x: -200, y: -50 }, //person6
-    { x: 600, y: -50 },  //person4
-    { x: 400,    y: -120 }, //person1
-    { x: 300,  y: -100 }, //person5
-    { x: -200,  y: -50 }, //person3
-    { x: 200,    y: -50 }, //person2
+    { x: -200, y: -80 }, //person6
+    { x: 0, y: -100 },  
+    { x: 200, y: -100 },
+    { x: -300, y: -50 },
+    { x: 0, y: -50 },
+    { x: 300, y: -40 },
+    { x: -300, y: -30 },
+    { x: -180,    y: -20 }, //person1
+    { x: 0,  y: 0 }, 
+    { x: 180,  y: -10 }, 
+    { x: 200,    y: -20 }, 
   ];
 
   const setItemRef = (el) => {

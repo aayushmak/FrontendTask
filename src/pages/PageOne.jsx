@@ -8,8 +8,7 @@ const PageOne = () => {
   const { containerRef, setItemRef, isActivated } = useClusterFloatAnimation();
 
   return (
-    <main ref={containerRef} className='relative w-full h-screen overflow-hidden'>
-      {/* place all items absolutely so we control x/y */}
+    <main ref={containerRef} className='relative w-full h-screen '>
       <div className="absolute left-1/2 transform -translate-x-1/2 flex flex-wrap justify-center">
         <div className='flex'>
           <div ref={setItemRef}><HoverableImage src={person6} withHoverEffect={isActivated} /></div>
@@ -19,7 +18,7 @@ const PageOne = () => {
         <div className="flex">
           <div ref={setItemRef}><HoverableImage src={person5} /></div>
           <div ref={setItemRef} className="flex flex-col items-center">
-            <p className='text-2xl text-nowrap'>Hear How They Level Up Their Game!</p>
+            <p className='text-2xl text-nowrap text-medium'>Hear How They Level Up Their Game!</p>
             <p className='text-4xl text-black font-bold'>Skill <span className='text-green-700'>Masters</span> Unite! 🤝</p>
             <div className='flex items-center'>
               <p className='text-xl font-semibold'>View all Testimonials </p>
