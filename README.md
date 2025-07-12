@@ -16,15 +16,15 @@ npm run dev
 ---
 
 ## Project Structure
-src/pages/PageOne.jsx → Task One
-src/pages/PageTwo.jsx → Task Two
-src/pages/PageThree.jsx → Task Three
-src/pages/CoverPage.jsx → Cover page linking to tasks given in Drive file
+- src/pages/PageOne.jsx → Task One
+- src/pages/PageTwo.jsx → Task Two
+- src/pages/PageThree.jsx → Task Three
+- src/pages/CoverPage.jsx → Cover page linking to tasks given in Drive file
 
 Other folders:
-components/ → Reusable UI components
-assets/ → Images, gifs, fonts
-App.jsx & main.jsx → App entry point & routing
+- components/ → Reusable UI components
+- assets/ → Images, gifs, fonts
+- App.jsx & main.jsx → App entry point & routing
 
 ---
 
