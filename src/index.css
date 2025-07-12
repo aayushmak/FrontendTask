@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+
+@font-face {
+  font-family: 'Oakes Grotesk';
+  src: url('./assets/fonts/fonnts.com-oakesgrotesk-regular.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Nohemi';
+  src: url('./assets/fonts/Nohemi-Regular-BF6438cc4d0e493.ttf');
+}
+
+
